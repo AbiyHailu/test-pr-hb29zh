@@ -1,0 +1,30 @@
+
+p {
+  font-family: Lato;
+}
+nav{
+  position: absolute;
+  right:0;
+  z-index: 1
+}
+.main{
+ position: absolute;
+ /* background: rgb(202, 236, 247); */
+ margin:0%;
+ height: 100%
+}
+
+@media (max-width: 767.98px) { 
+nav{
+  position: relative;
+  right:0;
+  top:0px;
+  z-index: 1
+}
+.main{
+ position: relative;
+ /* background: rgb(202, 236, 247); */
+ margin:0%;
+ height: 100%
+}
+ }
